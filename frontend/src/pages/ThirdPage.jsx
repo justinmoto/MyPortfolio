@@ -4,7 +4,7 @@ import { IoIosLink } from 'react-icons/io';
 const ThirdPage = () => {
   const works = [
     {
-        src: '../src/assets/flextrack.jpg',
+        src: '/assets/flextrack.jpg',
         title: 'https://github.com/justinmoto/FlexTrack-MERN',
         info: 'A exercise tracking website offers a seamless, user-friendly experience for monitoring physical activity, designed to enhance fitness routines while ensuring accessibility across devices, helping users stay committed to their health goals.',
         dev: ['HTML', 'CSS', 'React', 'Tailwind', 'Express', 'JavaScript', 'MongoDB', 'NodeJS'],
@@ -13,7 +13,7 @@ const ThirdPage = () => {
     },
 
     {
-        src: '../src/assets/plmun.jpeg',
+        src: '/assets/plmun.jpeg',
         title: 'PLMun',
         info: 'A appointment scheduling system simplifies coordination for clients, allowing them to easily book rehearsals, meetings, or performances with the chorale group, ensuring smooth management and streamlined communication.',
         dev: ['HTML', 'CSS', 'React', 'Tailwind', 'Express', 'JavaScript', 'PHP', 'NodeJS', 'MySQL'],
@@ -22,7 +22,7 @@ const ThirdPage = () => {
     },
 
     {
-        src: '../src/assets/pawscare.jpeg',
+        src: '/assets/pawscare.jpeg',
         title: 'Paws Care',
         info: 'A veterinary shop landing page offers a welcoming and informative space where clients can quickly access services, book appointments, and learn about pet care, ensuring a smooth and caring experience.',
         dev: ['HTML', 'CSS', 'React', 'Tailwind','JavaScript'],
@@ -31,7 +31,7 @@ const ThirdPage = () => {
     },
 
     {
-        src: '../src/assets/TreesResidence.jpeg',
+        src: '/assets/TreesResidence.jpeg',
         title: 'Trees Residence',
         info: 'A staycation condo landing page invites guests to explore a cozy retreat, showcasing amenities, booking options, and local attractions, providing a seamless and inviting experience for potential vacationers.',
         dev: ['HTML', 'CSS', 'React', 'Tailwind', 'JavaScript'],
@@ -40,7 +40,7 @@ const ThirdPage = () => {
     },
 
     {
-        src: '../src/assets/brainwise.jpeg',
+        src: '/assets/brainwise.jpeg',
         title: 'Brainwise',
         info: 'A elementary ELMS landing page, designed in Figma for my client, offers an intuitive and engaging interface, enabling students and teachers to access learning materials and manage courses with ease and clarity.',
         dev: ['Figma'],
@@ -49,7 +49,7 @@ const ThirdPage = () => {
     },
 
     {
-        src: '../src/assets/pixelwanderer.png',
+        src: '/assets/pixelwanderer.png',
         title: 'Pixel Wanderer',
         info: 'A platformer game features two captivating levels with dynamic challenges and smooth controls, delivering an engaging adventure through creatively designed environments that offer players a rewarding and enjoyable experience.',
         dev: ['Unity', 'C#'],
