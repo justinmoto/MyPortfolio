@@ -3,11 +3,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 const SecondPage = () => {
   const development = [
-    {src: '../src/assets/html.png', alt: 'HTML logo'},
-    {src: '../src/assets/css.png', alt: 'CSS logo'},
-    {src: '../src/assets/js.png', alt: 'JS logo'},
-    {src: '../src/assets/react.png', alt: 'React logo'},
-    {src: '../src/assets/tailwind.png', alt: 'Tailwind logo'},
+    {src: '/assets/html.png', alt: 'HTML logo'},
+    {src: '/assets/css.png', alt: 'CSS logo'},
+    {src: '/assets/js.png', alt: 'JS logo'},
+    {src: '/assets/react.png', alt: 'React logo'},
+    {src: '/assets/tailwind.png', alt: 'Tailwind logo'},
     {src: '../src/assets/bootstrap.png', alt: 'Bootstrap logo'},
     {src: '../src/assets/vscode.png', alt: 'Visual Studio Code logo'},
     {src: '../src/assets/mongodb.png', alt: 'MongoDB logo'},
