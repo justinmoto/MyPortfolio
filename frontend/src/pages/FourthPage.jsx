@@ -30,7 +30,7 @@ const FourthPage = () => {
             <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center pt-10 xs:text-[50px] sm:text-[50px] md:text-[50px]'>Achievements<span className='text-[#FAD26E]'>.</span></h1>
             {awardinfo.map((award,i) => (
             <div key={i} className='flex justify-center pt-12 xs:pt-5 sm:pt-7 md:pt-10'>
-                <div className='w-[50%] xs:w-[90%] sm:w-[90%] md:w-[72%] lg:w-[80%] xl:w-[80%] 2xl:w-[75%]'>
+                <div className='w-[50%] xs:w-[90%] sm:w-[90%] md:w-[72%] lg:w-[80%] xl:w-[80%] 2xl:w-[75%] 3xl:w-[60%]'>
                     <ul>
                         <li className='text-white relative flex items-baseline gap-10' data-aos={'fade-left'}>
                             <div className='before:absolute before:top-[15%] xs:before:top-[15%] sm:before:top-[12%] md:before:top-[11%] lg:before:top-[13%]
