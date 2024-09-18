@@ -25,8 +25,8 @@ const LastPage = () => {
     };
   return (
     <div className='h-[90vh] xs:h-[150vh] sm:h-[145vh] md:h-[150vh] 2xl:h-[100vh] bg-[#34353A]' id='contact'>
-        <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center pt-16 sm:text-[50px] md:text-[50px]'>Contact Me<span className='text-[#FAD26E]'>.</span></h1>
-        <div className='flex justify-center items-center gap-10 mt-16 xs:flex-col sm:flex-col sm:mt-7 md:flex-col md:mt-7 lg:mx-10 lg:mt-10 xl:mx-[6%]'>
+        <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center pt-16 xs:text-[50px] sm:text-[50px] md:text-[50px]'>Contact Me<span className='text-[#FAD26E]'>.</span></h1>
+        <div className='flex justify-center items-center gap-10 mt-16 xs:mt-5 xs:flex-col sm:flex-col sm:mt-7 md:flex-col md:mt-7 lg:mx-10 lg:mt-10 xl:mx-[6%]'>
             <div className='text-white xs:flex xs:justify-center xs:flex-col xs:items-center sm:flex sm:justify-center sm:flex-col sm:items-center md:flex md:justify-center md:flex-col md:items-center '>
                 <h1 className='font-bold text-[30px] text-center w-[80%] lg:w-[100%]'>Let's Work Together</h1>
                 <p className='text-[17px] w-[80%] text-center mt-5 lg:w-[100%]'>Want to discuss an opportunity to create something great? I'm ready when you are.</p>
