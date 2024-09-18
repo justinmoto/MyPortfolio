@@ -31,7 +31,7 @@ const NavBar = () => {
     }
   return (
     <div className=''>
-      <ol className='flex space-x-20 bg-[#34353A] py-4 px-24 rounded-full relative z-20 sm:hidden md:hidden lg:hidden xl:space-x-10 xl:px-16'>
+      <ol className='flex space-x-20 bg-[#34353A] py-4 px-24 rounded-full relative z-20 xs:hidden sm:hidden md:hidden lg:hidden xl:space-x-10 xl:px-16'>
           {NavBarItems.map((items, i) =>
           <div key={i} className='text-[20px]'>
               <a href={items.href}>

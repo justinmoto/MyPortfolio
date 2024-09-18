@@ -5,10 +5,10 @@ const ThirdPage = () => {
   const works = [
     {
         src: '/assets/flextrack.jpg',
-        title: 'https://github.com/justinmoto/FlexTrack-MERN',
+        title: 'Flextrack',
         info: 'A exercise tracking website offers a seamless, user-friendly experience for monitoring physical activity, designed to enhance fitness routines while ensuring accessibility across devices, helping users stay committed to their health goals.',
         dev: ['HTML', 'CSS', 'React', 'Tailwind', 'Express', 'JavaScript', 'MongoDB', 'NodeJS'],
-        link: 'https://example.com',
+        link: 'https://github.com/justinmoto/FlexTrack-MERN',
         icon: IoIosLink,
     },
 
@@ -59,15 +59,15 @@ const ThirdPage = () => {
 ];
 
 return (
-    <div className='h-[150vh] sm:h-[415vh] md:h-[440vh] lg:h-[225vh] xl:h-[225vh] 2xl:h-[170vh] bg-[#34353A] pt-10' id='works'>
-      <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center sm:text-[50px] md:text-[50px]'>Works<span className='text-[#FAD26E]'>.</span></h1>
+    <div className='h-[150vh] xs:h-[437vh] sm:h-[470vh] md:h-[485vh] lg:h-[225vh] xl:h-[225vh] 2xl:h-[150vh] bg-[#34353A] pt-10' id='works'>
+      <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center xs:text-[50px] sm:text-[50px] md:text-[50px]'>Works<span className='text-[#FAD26E]'>.</span></h1>
 
       <div className='mt-10 mx-10'>
         <div className='flex flex-wrap justify-center gap-10'>
           {works.map((card, i) => {
             const Icon = card.icon; 
             return (
-              <div key={i} className='transition-transform duration-300 hover:scale-105 hover:shadow-lg bg-[#3D3E42] rounded-[20px] w-[30%] h-[60vh] md:h-[65vh] flex flex-col sm:w-[100%] md:w-[100%] lg:w-[45%] lg:h-[62vh] xl:w-[45%] xl:h-[62vh] 2xl:h-[67vh]'>
+              <div key={i} className='transition-transform duration-300 hover:scale-105 hover:shadow-lg bg-[#3D3E42] rounded-[20px] w-[30%] h-[60vh]  flex flex-col xs:w-[100%] xs:h-[65vh] sm:w-[85%] sm:h-[70vh] md:w-[80%] md:h-[73vh] lg:w-[48%] lg:h-[62vh] xl:w-[45%] xl:h-[62vh] 2xl:h-[58vh]'>
                 <div className='flex-grow'>
                   <img src={card.src} alt={card.title} className='rounded-t-[20px] w-full' />
                   <h1 className='text-white text-[20px] font-extrabold px-5 mt-4'>{card.title}</h1>

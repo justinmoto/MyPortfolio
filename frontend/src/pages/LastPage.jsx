@@ -24,13 +24,13 @@ const LastPage = () => {
         );
     };
   return (
-    <div className='h-[90vh] sm:h-[150vh] md:h-[150vh] bg-[#34353A]' id='contact'>
+    <div className='h-[90vh] xs:h-[150vh] sm:h-[145vh] md:h-[150vh] 2xl:h-[100vh] bg-[#34353A]' id='contact'>
         <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center pt-16 sm:text-[50px] md:text-[50px]'>Contact Me<span className='text-[#FAD26E]'>.</span></h1>
-        <div className='flex justify-center items-center gap-10 mt-16 sm:flex-col sm:mt-7 md:flex-col md:mt-7 lg:mx-10 lg:mt-10 xl:mx-[6%]'>
-            <div className='text-white sm:flex sm:justify-center sm:flex-col sm:items-center md:flex md:justify-center md:flex-col md:items-center '>
+        <div className='flex justify-center items-center gap-10 mt-16 xs:flex-col sm:flex-col sm:mt-7 md:flex-col md:mt-7 lg:mx-10 lg:mt-10 xl:mx-[6%]'>
+            <div className='text-white xs:flex xs:justify-center xs:flex-col xs:items-center sm:flex sm:justify-center sm:flex-col sm:items-center md:flex md:justify-center md:flex-col md:items-center '>
                 <h1 className='font-bold text-[30px] text-center w-[80%] lg:w-[100%]'>Let's Work Together</h1>
                 <p className='text-[17px] w-[80%] text-center mt-5 lg:w-[100%]'>Want to discuss an opportunity to create something great? I'm ready when you are.</p>
-                <div className='space-y-10 mt-14 lg:mt-8'>
+                <div className='space-y-10 mt-14 xs:ml-[20%] lg:mt-8'>
                     <div className='flex items-center gap-7'>
                         <FaFacebook className='bg-[#3D3E42] text-[50px] p-2 rounded-[15px]'/>
                         <a href='https://www.facebook.com/jamactin13/'><p>www.facebook.com/jamactin13</p></a>
