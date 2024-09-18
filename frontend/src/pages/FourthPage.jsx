@@ -24,27 +24,26 @@ const FourthPage = () => {
         AOS.init({ duration: 1000, once: true });
       }, []);
   return (
-    <div className='h-screen sm:h-[120vh] md:h-[130vh] lg:h-[130vh] xl:h-[110vh] bg-[#34353A] relative tracking-wider' id='achievements'>
+    <div className='h-screen xxs:h-[130vh] sm:h-[120vh] md:h-[130vh] lg:h-[130vh] xl:h-[110vh] bg-[#34353A] relative tracking-wider' id='achievements'>
         <BgCircle/>
-        <div className='relative z-10 h-screen bg-[#d4d4d4] bg-opacity-10 backdrop-filter backdrop-blur-[70px] sm:h-[120vh] md:h-[130vh] lg:h-[130vh] xl:h-[110vh]'>     
-            <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center pt-10 xs:text-[50px] sm:text-[50px] md:text-[50px]'>Achievements<span className='text-[#FAD26E]'>.</span></h1>
+        <div className='relative z-10 h-screen bg-[#d4d4d4] bg-opacity-10 backdrop-filter backdrop-blur-[70px] xxs:h-[130vh] sm:h-[120vh] md:h-[130vh] lg:h-[130vh] xl:h-[110vh]'>     
+            <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center pt-10 xxs:text-[30px] xs:text-[50px] sm:text-[50px] md:text-[50px]'>Achievements<span className='text-[#FAD26E]'>.</span></h1>
             {awardinfo.map((award,i) => (
             <div key={i} className='flex justify-center pt-12 xs:pt-5 sm:pt-7 md:pt-10'>
-                <div className='w-[50%] xs:w-[90%] sm:w-[90%] md:w-[72%] lg:w-[80%] xl:w-[80%] 2xl:w-[75%] 3xl:w-[60%]'>
+                <div className='w-[50%] xxs:w-[90%] xs:w-[90%] sm:w-[90%] md:w-[72%] lg:w-[80%] xl:w-[80%] 2xl:w-[75%] 3xl:w-[60%]'>
                     <ul>
                         <li className='text-white relative flex items-baseline gap-10' data-aos={'fade-left'}>
-                            <div className='before:absolute before:top-[15%] xs:before:top-[15%] sm:before:top-[12%] md:before:top-[11%] lg:before:top-[13%]
-                            2xl:before:top-[19%] before:left-[30px] before:h-full xs:before:h-[85%] sm:before:h-[93%] before:w-[6px] before:bg-white'>
-                                <h1 className='text-[29px] font-extrabold text-white xs:text-[25px]'>{award.year}</h1>
+                            <div className='before:absolute before:top-[15%] xxs:before:top-[10%] xs:before:top-[15%] sm:before:top-[12%] md:before:top-[11%] lg:before:top-[13%] 2xl:before:top-[19%] before:left-[30px] before:h-full xs:before:h-[85%] sm:before:h-[93%] before:w-[6px] before:bg-white'>
+                                <h1 className='text-[29px] font-extrabold text-white xs:text-[25px] xxs:text-[25px]'>{award.year}</h1>
                             </div>
                             <div className=''>
-                                <h1 className='text-[30px] text-[#FAD26E] font-extrabold xs:text-[25px]'>{award.title}</h1>
+                                <h1 className='text-[30px] text-[#FAD26E] font-extrabold xs:text-[25px] xxs:text-[25px]'>{award.title}</h1>
                                 {award.award.map((arc,index) => (
                                 <div className='font-bold'>
                                     <p key={index}>{arc}</p>
                                 </div>
                                 ))}
-                                <p className='mt-5 text-[18px] xs:text-[13px]'>{award.info}</p>
+                                <p className='mt-5 text-[18px] xs:text-[13px] xxs:text-[13px]'>{award.info}</p>
                             </div>
                         </li>
                     </ul>

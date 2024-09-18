@@ -47,7 +47,6 @@ const ThirdPage = () => {
         link: 'https://www.figma.com/design/sIMw3PKEbB4SJEKUCV9mkx/Brainwise?node-id=0-1&t=1R05XxMT2piBgj3v-1',
         icon: IoIosLink,
     },
-
     {
         src: '/assets/pixelwanderer.png',
         title: 'Pixel Wanderer',
@@ -59,22 +58,22 @@ const ThirdPage = () => {
 ];
 
 return (
-    <div className='h-[150vh] xs:h-[437vh] sm:h-[470vh] md:h-[485vh] lg:h-[225vh] xl:h-[225vh] 2xl:h-[170vh] bg-[#34353A] pt-10' id='works'>
-      <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center xs:text-[50px] sm:text-[50px] md:text-[50px]'>Works<span className='text-[#FAD26E]'>.</span></h1>
+    <div className='h-[150vh] xxs:h-[405vh] xs:h-[437vh] sm:h-[470vh] md:h-[485vh] lg:h-[225vh] xl:h-[225vh] 2xl:h-[170vh] bg-[#34353A] pt-10' id='works'>
+      <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center xxs:text-[30px] xs:text-[50px] sm:text-[50px] md:text-[50px]'>Works<span className='text-[#FAD26E]'>.</span></h1>
 
       <div className='mt-10 mx-10'>
         <div className='flex flex-wrap justify-center gap-10'>
           {works.map((card, i) => {
             const Icon = card.icon; 
             return (
-              <div key={i} className='transition-transform duration-300 hover:scale-105 hover:shadow-lg bg-[#3D3E42] rounded-[20px] w-[30%] h-[60vh]  flex flex-col xs:w-[100%] xs:h-[65vh] sm:w-[85%] sm:h-[70vh] md:w-[80%] md:h-[73vh] lg:w-[48%] lg:h-[62vh] xl:w-[45%] xl:h-[62vh] 2xl:h-[67vh]'>
+              <div key={i} className='transition-transform duration-300 hover:scale-105 hover:shadow-lg bg-[#3D3E42] rounded-[20px] w-[30%] h-[60vh]  flex flex-col xxs:w-[100%] xs:w-[100%] xs:h-[65vh] sm:w-[85%] sm:h-[70vh] md:w-[80%] md:h-[73vh] lg:w-[48%] lg:h-[62vh] xl:w-[45%] xl:h-[62vh] 2xl:h-[67vh]'>
                 <div className='flex-grow'>
                   <img src={card.src} alt={card.title} className='rounded-t-[20px] w-full' />
                   <h1 className='text-white text-[20px] font-extrabold px-5 mt-4'>{card.title}</h1>
-                  <p className='text-white px-5 mb-4'>{card.info}</p>
+                  <p className='text-white px-5 mb-4 xxs:text-[13px]'>{card.info}</p>
                   <div className='flex flex-wrap gap-2 px-4 mt-2'> 
                     {card.dev.map((tech, index) => ( // To Have Border Each Item in the array
-                      <div key={index} className='text-center rounded-full bg-[#34353A] text-white px-4 py-2'>
+                      <div key={index} className='xxs:text-[15px] text-center rounded-full bg-[#34353A] text-white px-4 py-2'>
                         {tech}
                       </div>
                     ))}

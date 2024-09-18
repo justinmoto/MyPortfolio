@@ -24,13 +24,14 @@ const LastPage = () => {
         );
     };
   return (
-    <div className='h-[90vh] xs:h-[150vh] sm:h-[145vh] md:h-[150vh] 2xl:h-[100vh] bg-[#34353A]' id='contact'>
-        <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center pt-16 xs:text-[50px] sm:text-[50px] md:text-[50px]'>Contact Me<span className='text-[#FAD26E]'>.</span></h1>
-        <div className='flex justify-center items-center gap-10 mt-16 xs:mt-5 xs:flex-col sm:flex-col sm:mt-7 md:flex-col md:mt-7 lg:mx-10 lg:mt-10 xl:mx-[6%]'>
-            <div className='text-white xs:flex xs:justify-center xs:flex-col xs:items-center sm:flex sm:justify-center sm:flex-col sm:items-center md:flex md:justify-center md:flex-col md:items-center '>
+    <div className='h-[90vh] xxs:h-[135vh] xs:h-[150vh] sm:h-[145vh] md:h-[150vh] 2xl:h-[100vh] bg-[#34353A]' id='contact'>
+        <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center pt-16 xxs:text-[30px] xs:text-[50px] sm:text-[50px] md:text-[50px]'>Contact Me<span className='text-[#FAD26E]'>.</span></h1>
+        <div className='flex justify-center items-center gap-10 mt-16 xxs:flex-col xxs:mt-5 xs:mt-5 xs:flex-col sm:flex-col sm:mt-7 md:flex-col md:mt-7 lg:mx-10 lg:mt-10 xl:mx-[6%]'>
+            <div className='text-white xxs:flex x:justify-center xxs:flex-col xxs:items-center xs:flex xs:justify-center xs:flex-col xs:items-center sm:flex sm:justify-center sm:flex-col sm:items-center md:flex md:justify-center md:flex-col md:items-center '>
                 <h1 className='font-bold text-[30px] text-center w-[80%] lg:w-[100%]'>Let's Work Together</h1>
                 <p className='text-[17px] w-[80%] text-center mt-5 lg:w-[100%]'>Want to discuss an opportunity to create something great? I'm ready when you are.</p>
-                <div className='space-y-10 mt-14 xs:ml-[20%] lg:mt-8'>
+                
+                <div className='space-y-10 mt-14 xs:ml-[20%] xxs:ml-[7%] xxs:text-[15px] lg:mt-8'>
                     <div className='flex items-center gap-7'>
                         <FaFacebook className='bg-[#3D3E42] text-[50px] p-2 rounded-[15px]'/>
                         <a href='https://www.facebook.com/jamactin13/'><p>www.facebook.com/jamactin13</p></a>
@@ -53,7 +54,7 @@ const LastPage = () => {
                 </div>
             </div>
 
-            <div className='bg-[#3D3E42] h-full rounded-[20px] flex justify-center items-center lg:w-[90%]'>
+            <div className='bg-[#3D3E42] h-full rounded-[20px] flex justify-center items-center lg:w-[90%] xxs:w-[80%]'>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='p-10 space-y-5 text-white '>
                      <div>
