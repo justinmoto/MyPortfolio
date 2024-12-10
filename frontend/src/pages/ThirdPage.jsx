@@ -66,7 +66,7 @@ const ThirdPage = () => {
     {
       src: '/assets/SGCybersecurity.png',
       title: 'SGCybersecurity',
-      info: 'A platformer game features two captivating levels with dynamic challenges and smooth controls, delivering an engaging adventure through creatively designed environments that offer players a rewarding and enjoyable experience.',
+      info: 'Revamping an existing website with an updated design and new features. Currently developing and enhancing functionality for a more seamless and engaging user experience. Development is ongoing.',
       dev: ['Figma', 'Tailwind', 'React', 'Vercel', 'JavaScript'],
       link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
       icon: IoIosLink,
@@ -74,7 +74,7 @@ const ThirdPage = () => {
     {
       src: '/assets/FortiMSS.png',
       title: 'FortiMSS Shopping',
-      info: 'Revamping an existing website with an updated design and new features. Currently developing and enhancing functionality for a more seamless and engaging user experience. Development is ongoing.',
+      info: 'Designed an e-commerce website using Figma to showcase and sell cybersecurity products. Features a sleek, user-friendly interface tailored for secure and efficient online shopping experiences.',
       dev: ['Figma'],
       link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
       icon: IoIosLink,

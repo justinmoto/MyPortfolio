@@ -20,7 +20,7 @@ const FirstPage = () => {
                 <h1 className='text-[40px] font-extrabold text-[#FAD26E] z-20 sm:text-[35px]'>PORTFOLIO.</h1>
                 <NavBar/>
                 <div className='xxs:hidden xs:hidden sm:hidden md:hidden lg:hidden font-bold'>
-                    V1.1
+                    V1.2
                 </div>  
             </div>
 
