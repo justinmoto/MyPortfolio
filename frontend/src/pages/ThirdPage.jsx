@@ -55,10 +55,34 @@ const ThirdPage = () => {
         link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
         icon: IoIosLink,
     },
+    {
+      src: '/assets/InsightzTechnology.png',
+      title: 'Insightz Technology',
+      info: 'Revamping an existing website with a modernized design and enhanced functionality. Transforming the frontend and backend using Figma for a seamless, user-friendly, and visually appealing experience.',
+      dev: ['Figma'],
+      link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
+      icon: IoIosLink,
+    },
+    {
+      src: '/assets/SGCybersecurity.png',
+      title: 'SGCybersecurity',
+      info: 'A platformer game features two captivating levels with dynamic challenges and smooth controls, delivering an engaging adventure through creatively designed environments that offer players a rewarding and enjoyable experience.',
+      dev: ['Figma', 'Tailwind', 'React', 'Vercel', 'JavaScript'],
+      link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
+      icon: IoIosLink,
+    },
+    {
+      src: '/assets/FortiMSS.png',
+      title: 'FortiMSS Shopping',
+      info: 'Revamping an existing website with an updated design and new features. Currently developing and enhancing functionality for a more seamless and engaging user experience. Development is ongoing.',
+      dev: ['Figma'],
+      link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
+      icon: IoIosLink,
+    },
 ];
 
 return (
-    <div className='h-[150vh] xxs:h-[405vh] xs:h-[437vh] sm:h-[470vh] md:h-[485vh] lg:h-[225vh] xl:h-[225vh] 2xl:h-[170vh] bg-[#34353A] pt-10' id='works'>
+    <div className='h-[215vh] xxs:h-[405vh] xs:h-[437vh] sm:h-[470vh] md:h-[485vh] lg:h-[225vh] xl:h-[225vh] 2xl:h-[170vh] bg-[#34353A] pt-10' id='works'>
       <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center xxs:text-[30px] xs:text-[50px] sm:text-[50px] md:text-[50px]'>Works<span className='text-[#FAD26E]'>.</span></h1>
 
       <div className='mt-10 mx-10'>

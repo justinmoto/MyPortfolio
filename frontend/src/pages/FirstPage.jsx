@@ -26,9 +26,9 @@ const FirstPage = () => {
 
             <div className='flex flex-col justify-center items-center text-center h-[60%] xxs:h-[60%]'>
                 <h1 className='text-[70px] font-extrabold xxs:text-[50px] sm:text-[60px]'>Hi, I'm <span className='text-[#FAD26E]'>{text}<Cursor/></span></h1>
-                <h2 className='text-[40px] font-extrabold mx-[20%] xxs:mt-5 xxs:mx-[3%] xs:mx-[3%] xs:text-[30px] xxs:text-[25px] sm:text-[30px] sm:mx-[5%] md:mx-[2%] lg:mx-[2%] xl:mx-[5%] 2xl:mx-[10%]'>A Freelance 
+                <h2 className='text-[40px] font-extrabold mx-[20%] xxs:mt-5 xxs:mx-[3%] xs:mx-[3%] xs:text-[30px] xxs:text-[25px] sm:text-[30px] sm:mx-[5%] md:mx-[2%] lg:mx-[2%] xl:mx-[5%] 2xl:mx-[10%]'>Aspiring 
                     <span className='text-[#FAD26E]'> UI/UX Designer </span> & 
-                    <span className='text-[#FAD26E]'> Front-End Developer </span> 
+                    <span className='text-[#FAD26E]'> Web Developer </span> 
                     based in 
                     <span className='text-[#FAD26E]'> San Jose Del Monte, Bulacan</span></h2>
                 <p className='text-[20px] mx-[20%] mt-5 xxs:text-[15px] xxs:mx-[10%] xs:mx-[10%] sm:mx-[2%] md:mx-[3%] lg:mx-[5%] xl:mx-[5%] 2xl:mx-[7%]'>I craft seamless <span className='text-[#FAD26E]'>user experiences and build dynamic, responsive websites</span> tailored to bring your vision to life. Let’s work together to <span className='text-[#FAD26E]'>turn ideas into engaging digital solutions.</span></p>
