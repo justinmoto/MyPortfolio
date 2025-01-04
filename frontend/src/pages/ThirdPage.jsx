@@ -60,7 +60,7 @@ const ThirdPage = () => {
       title: 'Insightz Technology',
       info: 'Revamping an existing website with a modernized design and enhanced functionality. Transforming the frontend and backend using Figma for a seamless, user-friendly, and visually appealing experience.',
       dev: ['Figma'],
-      link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
+      link: 'https://www.figma.com/proto/aizc9imebHc1nKGnzCQLGp/Website?page-id=0%3A1&node-id=1-3&p=f&viewport=122%2C1334%2C0.02&t=SMnKykD7Mc8FjebL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A3&show-proto-sidebar=1',
       icon: IoIosLink,
     },
     {
@@ -68,7 +68,7 @@ const ThirdPage = () => {
       title: 'SGCybersecurity',
       info: 'Revamping an existing website with an updated design and new features. Currently developing and enhancing functionality for a more seamless and engaging user experience. Development is ongoing.',
       dev: ['Figma', 'Tailwind', 'React', 'Vercel', 'JavaScript'],
-      link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
+      link: 'https://www.figma.com/proto/RfLbToXxyjAFEisxey9t0e/SGCybersecurity?page-id=0%3A1&node-id=2-2&p=f&viewport=871%2C628%2C0.02&t=fvewhvt82d5ibp7n-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A2',
       icon: IoIosLink,
     },
     {
@@ -76,7 +76,7 @@ const ThirdPage = () => {
       title: 'FortiMSS Shopping',
       info: 'Designed an e-commerce website using Figma to showcase and sell cybersecurity products. Features a sleek, user-friendly interface tailored for secure and efficient online shopping experiences.',
       dev: ['Figma'],
-      link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
+      link: 'https://www.figma.com/proto/AZlJEHf9K0jNpRJFf6qP5E/Fortinet-Shopping?page-id=0%3A1&node-id=736-3000&viewport=6204%2C-684%2C0.13&t=pziFqhuSq7YYsjA5-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2452%3A8318',
       icon: IoIosLink,
     },
 ];
