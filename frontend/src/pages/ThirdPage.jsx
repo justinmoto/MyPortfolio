@@ -47,6 +47,7 @@ const ThirdPage = () => {
         link: 'https://www.figma.com/design/sIMw3PKEbB4SJEKUCV9mkx/Brainwise?node-id=0-1&t=1R05XxMT2piBgj3v-1',
         icon: IoIosLink,
     },
+
     {
         src: '/assets/pixelwanderer.png',
         title: 'Pixel Wanderer',
@@ -55,6 +56,7 @@ const ThirdPage = () => {
         link: 'https://drive.google.com/file/d/1lewY22eIQT77YGNaFOms5Rpr3Rx-hNcm/view?usp=sharing',
         icon: IoIosLink,
     },
+
     {
       src: '/assets/InsightzTechnology.png',
       title: 'Insightz Technology',
@@ -63,6 +65,7 @@ const ThirdPage = () => {
       link: 'https://www.figma.com/proto/aizc9imebHc1nKGnzCQLGp/Website?page-id=0%3A1&node-id=1-3&p=f&viewport=122%2C1334%2C0.02&t=SMnKykD7Mc8FjebL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A3&show-proto-sidebar=1',
       icon: IoIosLink,
     },
+
     {
       src: '/assets/SGCybersecurity.png',
       title: 'SGCybersecurity',
@@ -71,6 +74,7 @@ const ThirdPage = () => {
       link: 'https://www.figma.com/proto/RfLbToXxyjAFEisxey9t0e/SGCybersecurity?page-id=0%3A1&node-id=2-2&p=f&viewport=871%2C628%2C0.02&t=fvewhvt82d5ibp7n-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A2',
       icon: IoIosLink,
     },
+
     {
       src: '/assets/FortiMSS.png',
       title: 'FortiMSS Shopping',
@@ -79,10 +83,64 @@ const ThirdPage = () => {
       link: 'https://www.figma.com/proto/AZlJEHf9K0jNpRJFf6qP5E/Fortinet-Shopping?page-id=0%3A1&node-id=736-3000&viewport=6204%2C-684%2C0.13&t=pziFqhuSq7YYsjA5-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2452%3A8318',
       icon: IoIosLink,
     },
+    //Added a new project
+    {
+      src: '/assets/yuzo.png',
+      title: 'Yuzo',
+      info: 'Yuzo is a platform that allows users to create and share their own AI agents. It is a web application that is built using React, Tailwind, and Vercel.',
+      dev: ['Figma', 'React', 'Tailwind', 'Vercel'],
+      link: 'https://www.figma.com/proto/AZlJEHf9K0jNpRJFf6qP5E/Fortinet-Shopping?page-id=0%3A1&node-id=736-3000&viewport=6204%2C-684%2C0.13&t=pziFqhuSq7YYsjA5-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2452%3A8318',
+      icon: IoIosLink,
+    },
+
+    {
+      src: '/assets/teatrack.png',
+      title: 'Teatrack',
+      info: 'Teatrack is a platform that allows users to create and share their own AI agents. It is a web application that is built using React, Tailwind, and Vercel.',
+      dev: ['Figma', 'React', 'Tailwind', 'Vercel'],
+      link: 'https://www.figma.com/proto/AZlJEHf9K0jNpRJFf6qP5E/Fortinet-Shopping?page-id=0%3A1&node-id=736-3000&viewport=6204%2C-684%2C0.13&t=pziFqhuSq7YYsjA5-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2452%3A8318',
+      icon: IoIosLink,
+    },
+
+    {
+      src: '/assets/smarthandog.png',
+      title: 'Smart Handog',
+      info: 'Smart Handog is a platform that allows users to create and share their own AI agents. It is a web application that is built using React, Tailwind, and Vercel.',
+      dev: ['Figma', 'React', 'Tailwind', 'Vercel'],
+      link: 'https://www.figma.com/proto/AZlJEHf9K0jNpRJFf6qP5E/Fortinet-Shopping?page-id=0%3A1&node-id=736-3000&viewport=6204%2C-684%2C0.13&t=pziFqhuSq7YYsjA5-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2452%3A8318',
+      icon: IoIosLink,
+    },
+
+    {
+      src: '/assets/garment.png',
+      title: 'Garment',
+      info: 'Garment is a platform that allows users to create and share their own AI agents. It is a web application that is built using React, Tailwind, and Vercel.',
+      dev: ['Figma', 'React', 'Tailwind', 'Vercel'],
+      link: 'https://www.figma.com/proto/AZlJEHf9K0jNpRJFf6qP5E/Fortinet-Shopping?page-id=0%3A1&node-id=736-3000&viewport=6204%2C-684%2C0.13&t=pziFqhuSq7YYsjA5-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2452%3A8318',
+      icon: IoIosLink,
+    },
+
+    {
+      src: '/assets/drivr.png',
+      title: 'Drivr',
+      info: 'Drivr is a platform that allows users to create and share their own AI agents. It is a web application that is built using React, Tailwind, and Vercel.',
+      dev: ['Figma', 'React', 'Tailwind', 'Vercel'],
+      link: 'https://www.figma.com/proto/AZlJEHf9K0jNpRJFf6qP5E/Fortinet-Shopping?page-id=0%3A1&node-id=736-3000&viewport=6204%2C-684%2C0.13&t=pziFqhuSq7YYsjA5-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2452%3A8318',
+      icon: IoIosLink,
+    },
+
+    {
+    src: '/assets/cevu.png',
+      title: 'CErevu',
+      info: 'CErevu is a platform that allows users to create and share their own AI agents. It is a web application that is built using React, Tailwind, and Vercel.',
+      dev: ['Figma', 'React', 'Tailwind', 'Vercel'],
+      link: 'https://www.figma.com/proto/AZlJEHf9K0jNpRJFf6qP5E/Fortinet-Shopping?page-id=0%3A1&node-id=736-3000&viewport=6204%2C-684%2C0.13&t=pziFqhuSq7YYsjA5-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2452%3A8318',
+      icon: IoIosLink,
+    },
 ];
 
 return (
-    <div className='h-[215vh] xxs:h-[405vh] xs:h-[437vh] sm:h-[470vh] md:h-[485vh] lg:h-[225vh] xl:h-[225vh] 2xl:h-[170vh] bg-[#34353A] pt-10' id='works'>
+    <div className='h-[355vh] xxs:h-[405vh] xs:h-[437vh] sm:h-[470vh] md:h-[485vh] lg:h-[225vh] xl:h-[225vh] 2xl:h-[170vh] bg-[#34353A] pt-10' id='works'>
       <h1 className='text-[70px] font-extrabold px-[10%] text-white text-center xxs:text-[30px] xs:text-[50px] sm:text-[50px] md:text-[50px]'>Works<span className='text-[#FAD26E]'>.</span></h1>
 
       <div className='mt-10 mx-10'>
